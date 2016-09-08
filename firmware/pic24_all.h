@@ -44,9 +44,9 @@
 
 // added HN
 
-// Fosc = LPFRC (500kHz) / CLKDIV
-// CLKDIV = 0 (divide by 1) => Fosc = 500kHz
-// FCY = Fosc/2 = 250kHz
+// Fosc = LPFRC (8MHz) / CLKDIV
+// CLKDIV = 3 (divide by 8) => Fosc = 1MHz
+// FCY = Fosc/2 = 500kHz
 
 #define FCY 500000L
 
