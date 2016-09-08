@@ -1,0 +1,38 @@
+Partlist
+
+Exported from Vario 0.1 Ultra Mini.brd at 03/06/2016 20:12
+
+EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part          Value              Package       Library                 Position (mm)         Orientation
+
+ADP160                           TSOT23-6_DDC  analog-devices          (12.39583125 6.633084375) R270
+BATT+         VARIO_LIPO         VARIO_LIPO    battery                 (15.1622 3.3258)      MR0
+BUZZ+         WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (15.3654 14.451)      MR90
+BUZZ-         WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (15.3654 12.5206)     MR90
+C1            1µ                 C0603         rcl                     (15.325384375 5.448765625) R90
+C2            100nF              C0603         rcl                     (10.789534375 9.44179375) R180
+C3            100nF              C0603         rcl                     (6.30965625 5.63725)  R180
+C4            1µ                 C0603         rcl                     (14.476334375 9.551021875) R0
+C5            1µ                 C0603         rcl                     (9.70756875 6.45908125) R270
+C6            100nF              C0603         rcl                     (11.014953125 18.66058125) R180
+D1                               SOD323-R      diode                   (3.886615625 2.243884375) R180
+GND@1         WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (3.8338 20.1914)      MR0
+GND@2         WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (1.8018 9.117)        MR270
+LTC4071       LTC4071            MSOP8         linear-technology       (10.8444625 2.956909375) R270
+MCLR          WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (9.3456 20.1914)      MR0
+MCP4542       MCP4542            MSOP8         microchip               (13.2824 14.2392)     R270
+MS5611                           MS5607-02BA03 measurement_specialties (3.890153125 7.0973375) R90
+PGC           WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (5.688 20.1914)       MR0
+PGD           WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (7.5422 20.1914)      MR0
+PIC24F16KA101                    SSOP20_MC     microchip               (6.185 15.07636875)   R270
+R1            10k                R0603         rcl                     (12.550559375 11.7048625) R0
+R2            10k                R0603         rcl                     (13.3332 16.84024375) R0
+R3            10k                R0603         rcl                     (1.93049375 8.624)    R270
+R4            10k                R0603         rcl                     (14.527 18.700921875) R0
+RIN           440                R0603         rcl                     (6.73821875 3.198834375) R270
+SOL+          WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (1.8018 3.783)        MR270
+SOL-          WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (1.8272 1.6748)       MR270
+SWITCH        WIREPADSMD1,27-254 SMD1,27-2,54  wirepad                 (1.8018 10.768)       MR270

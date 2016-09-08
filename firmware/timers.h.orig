@@ -1,0 +1,34 @@
+/* 
+ * File:   timers.h
+ * Author: sam
+ *
+ * Created on 18 juin 2012, 16:16
+ */
+
+#ifndef TIMERS_H
+#define	TIMERS_H
+
+
+/* you should implement these :
+void tmr1_callback(void);
+*/
+
+
+//// TIMER 1 : triggers sensor reads
+void tmr1_Config(void);
+void tmr1_Start(u32 mS);
+void tmr1_Stop();
+
+//// TIMER 2 : beep driver
+void tmr1_Config(void);
+void tmr2_Start(void);
+void tmr2_Stop(void);
+
+//// TIMER 3 : climbing signal generator
+void tmr3_Config(void);
+void tmr3_Start(u32 mS);
+void tmr3_Stop(void);
+void tmr3_Glandouille(u32 mS);
+
+
+#endif	/* TIMERS_H */

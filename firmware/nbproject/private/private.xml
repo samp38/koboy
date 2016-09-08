@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1">
+        <file>
+            <url>chars.c</url>
+            <line>1</line>
+        </file>
+        <file>
+            <url>filters.h</url>
+            <line>10</line>
+        </file>
+    </editor-bookmarks>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0">
+        <file>
+            <url>filters.h</url>
+            <bookmark id="0">
+                <name/>
+                <line>10</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>chars.c</url>
+            <bookmark id="0">
+                <name/>
+                <line>1</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/p24F16KA101.h</file>
+            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/timers.c</file>
+            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/button.c</file>
+            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/pic24_all.h</file>
+            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/main.c</file>
+            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/MMA8452.c</file>
+        </group>
+    </open-files>
+</project-private>

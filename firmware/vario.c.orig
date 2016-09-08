@@ -1,0 +1,140 @@
+#include "pic24_all.h"
+
+#include "audio.h"
+#include "vario.h"
+
+#define BEEP_BASE_PERIOD 1500
+#define BEEP_BASE_FREQ   220
+#define MEASURE_INTEGRATE_TIME_IN_SAMPLES 30
+
+u32 beep_period = BEEP_BASE_PERIOD;
+u32 beep_freq = 220;
+u8 beeping = 0;
+u8 ping_counter = 0; // won't switch beeping until counter==0
+u8 pingSpeedCalculation_counter = 0;    // won't recalculate speed until counter==0
+
+void climbing_beep(s32 speed);
+
+void vario_init(void) {
+    beeping = 0;
+    ping_counter = 50;
+    pingSpeedCalculation_counter = 100;
+}
+
+void vario_ping(void) {
+    if (pingSpeedCalculation_counter == 0) {
+        s32 speed;
+        nextSpeed(&speed);
+        climbing_beep(speed);
+        audio_Beep(beep_freq);
+        pingSpeedCalculation_counter = MEASURE_INTEGRATE_TIME_IN_SAMPLES;
+    }
+//    if (ping_counter == 0) {
+//        if (beeping){
+//            audio_Beep(0);
+//            ping_counter =  (beep_period) / (MEASURE_PERIOD_P + MEASURE_PERIOD_T + 40);
+//            beeping = 0;
+//        } else {
+////            s32 speed;
+////            nextSpeed(&speed);
+////            climbing_beep(speed);
+//
+//            audio_Beep(beep_freq);
+//            beeping = 1;
+//            ping_counter = ((beep_period) / (MEASURE_PERIOD_P + MEASURE_PERIOD_T + 40)) >> 1;
+//        }
+//    }
+    pingSpeedCalculation_counter--;
+//    ping_counter--;
+}
+
+/**
+ * Update globals beep_freq and beep_period according to a new climbing speed
+ */
+void climbing_beep(s32 speed) {
+    if(speed > 7) {
+        beep_freq = 220 + speed;
+    }
+    else {
+        beep_freq = 0;
+    }
+//    u8 speedAudioFreqCoef = 70;
+//    u8 speedAudioPeriodCoef = 10;
+//
+//    if (speed < 0) {                // going down, no sound
+//        beep_freq = 0;
+//        beep_period = BEEP_BASE_PERIOD;
+//    }
+//    else if (speed < 7 ) {         // zeroting
+//        beep_freq = 0;
+//        beep_period = BEEP_BASE_PERIOD;
+//    }
+//    else if (speed < 50 ) {
+//        beep_freq = BEEP_BASE_FREQ;
+//        beep_period = BEEP_BASE_PERIOD;
+//    }
+//    else if (speed < 70 ) {
+//        beep_freq = BEEP_BASE_FREQ + (3 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (18 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 85 ) {
+//        beep_freq = BEEP_BASE_FREQ + (5 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (28 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 100 ) {
+//        beep_freq = BEEP_BASE_FREQ + (7 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (35 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 150 ) {
+//        beep_freq = BEEP_BASE_FREQ + (9 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (41 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 200 ) {
+//        beep_freq = BEEP_BASE_FREQ + (10 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (51 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 250 ) {
+//        beep_freq = BEEP_BASE_FREQ + (11 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (58 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 300 ) {
+//        beep_freq = BEEP_BASE_FREQ + (12 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (64 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 400 ) {
+//        beep_freq = BEEP_BASE_FREQ + (13 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (68 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 500 ) {
+//        beep_freq = BEEP_BASE_FREQ + (15 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (75 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 600 ) {
+//        beep_freq = BEEP_BASE_FREQ + (17 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (81 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 700 ) {
+//        beep_freq = BEEP_BASE_FREQ + (19 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (86 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 800 ) {
+//        beep_freq = BEEP_BASE_FREQ + (21 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (89 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 900 ) {
+//        beep_freq = BEEP_BASE_FREQ + (23 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (93 * speedAudioPeriodCoef);
+//    }
+//    else if (speed < 1000 ) {
+//        beep_freq = BEEP_BASE_FREQ + (25 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (94 * speedAudioPeriodCoef);
+//    }
+//    else if (speed >= 100) {
+//        beep_freq = BEEP_BASE_FREQ + (25 * speedAudioFreqCoef);
+//        beep_period = BEEP_BASE_PERIOD - (95 * speedAudioPeriodCoef);
+//    }
+
+    // audio freuqnecy response : from 220 to 2200
+    // Beep Period response : from 500 to 50
+}
+
