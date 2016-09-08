@@ -1,0 +1,34 @@
+Partlist
+
+Exported from Vario Kobo.brd at 29/01/2015 11:02
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part      Value             Package               Library                 Position (mil)        Orientation
+
+ADP160                      TSOT23-6_DDC          analog-devices          (1306.99668 143.26895) R0
+BUTTON    SMS_J_LEAD        SMS_J_LEAD            schurter                (1998 318)            R270
+BUZZER    PKLCS1212E2000-R1 PKLCS1212E2000-R1-SMD murata_buzzers          (264 310)             R90
+C1        1µ                C0603                 rcl                     (1168.27879 60.59966) R180
+C2        1µ                C0603                 rcl                     (1307.85568 265.01661) R0
+C3        100nF             C0603                 rcl                     (1303.4829 398.73253) R0
+C4        100nF             C0603                 rcl                     (813.33661 119.84473) R270
+C5        100nF             C0603                 rcl                     (700.67729 503.35433) R90
+C6        100nF             C0603                 rcl                     (1301.805 483.61491)  R0
+C7        100nF             C0603                 rcl                     (737.18123 146.67717) R90
+C8        100nF             C0603                 rcl                     (640.14186 147.16535) R270
+CONN_KOBO PICO-EZMATE4      PICO-EZMATE4-PCB      molex                   (1538.7874 191.55906) R0
+CONN_PROG PICO-EZMATE4      PICO-EZMATE4-PCB      molex                   (1549.68504 447.87402) R180
+MAS       MAS6240           QFN12_3X3             mas                     (680.5513 342.14173)  R90
+MS5611                      MS5607-02BA03         measurement_specialties (882.35249 85.23376)  R90
+PA6H      PA6H              PA6H_PRINT            gtop                    (2648.61417 314.40945) R0
+PIC                         SSOP20_MC             microchip               (1052.32283 435.19562) R270
+R1        10k               R0603                 rcl                     (1162.76218 158.38041) R0
+R2        10k               R0603                 rcl                     (848.4156 294.51969)  R90
+R3        33k               R0603                 rcl                     (1466 370)            R0
+R4        10k               R0603                 rcl                     (1302.70079 572.60322) R0
+R5        1k                R0603                 rcl                     (1666.89764 295.82677) R180
+R6        10k               R0603                 rcl                     (1724.86983 92.51969) R270
+R7        1                 R0603                 rcl                     (543.30709 295.27559) R90

@@ -1,0 +1,24 @@
+/* 
+ * File:   audio.h
+ * Author: sam
+ *
+ * Created on 24 juin 2012, 13:37
+ */
+
+#ifndef AUDIO_H
+#define	AUDIO_H
+
+void audio_Config(void);
+void comparatorStop();
+void comparatorStart();
+void audio_Beep(u32 freq);
+//void setBoostVolume(void);
+//void setHighVolume(void);
+//void setMediumVolume(void);
+//void setLowVolume(void);
+//void shutdownVolume(void);
+//u8 getVolume(void);
+void setVolume(u8 state);
+
+#endif	/* AUDIO_H */
+
