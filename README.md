@@ -1,3 +1,7 @@
-# Coucou
+# Kobo Mini Kit
 
-Coucou 
+Turn your kobo into a complete flight instrument :-)
+
+## Hardware
+
+## Software
