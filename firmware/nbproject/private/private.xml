@@ -29,13 +29,6 @@
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/p24F16KA101.h</file>
-            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/timers.c</file>
-            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/button.c</file>
-            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/pic24_all.h</file>
-            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/main.c</file>
-            <file>file:/Users/sam/MPLABXProjects/koboy/trunk/FW/Pic/VarioKobo/MMA8452.c</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
