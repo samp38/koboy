@@ -6,3 +6,7 @@ firmware/dist/
 *.s#*
 *.l#*
 *~.*
+
+firmware/nbproject/Makefile-genesis.properties
+
+firmware/nbproject/private/configurations.xml
