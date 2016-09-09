@@ -1,5 +1,0 @@
-Kobo Mini
-	Dimensions externe Kobo hors tout : 133x102mm
-	Dimensions emplacement batterie : 45x60mm
-	Consommation moyenne Kobo seule XCSoar : environ 120mA
-	
