@@ -9,7 +9,7 @@ This project allows you to build an extension card for Kobo which runs XCSoar. T
 
 ## Hardware
 
-The extension card is based on PIC24F16KA101. It also includes a GPS patch antenna chip (PA6H) and a high resolution pressure sensor (MS5611)
+The extension card is based on PIC24F16KA101. It also includes a GPS patch antenna chip (PA6H) and a high resolution pressure sensor [(MS5611)](https://infusionsystems.com/support/MS5611-01BA03.pdf)
 
 ## Firmware
 
