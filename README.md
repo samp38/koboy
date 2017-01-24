@@ -9,7 +9,13 @@ This project allows you to build an extension card for Kobo which runs XCSoar. T
 - XCSoar software for Kobo
 
 ### How it works
-The GPS chip is standalone. As long as it's powered, it runs and sends NMEA data through its TX output at a given (user definable) frequency. The microntroller manages the pressure sensing and computing: pressure is measured, numerically filtered and derivated at 50Hz to provide Vz. To work with the GPS chip, the microcontroller detects the beginning of the PA6H TX communication and waits the time needed to send variometer data between GPS data bursts. It can seem hazardous but it works very well for years in my case. The variometer data sent by the microcontroller to XCSoar mimics a Digifly Leonardo. So you just have to select Digifly Leonardo in XCSoar to have the variometer data read and understood by XCSoar. All the steps of the XCSoar configuration is described in the __software__ part.
+The GPS chip is standalone. As long as it's powered, it runs and sends NMEA data through its TX output at a given (user definable) frequency. The microntroller manages the pressure sensing and computing: pressure is measured, numerically filtered and derivated at 50Hz to provide Vz. To work with the GPS chip, the microcontroller detects the beginning of the PA6H TX communication and waits the time needed to send variometer data between GPS data bursts. It can seem dubious but it works very well for years in my case. The variometer data sent by the microcontroller to XCSoar mimics a Digifly Leonardo. So you just have to select Digifly Leonardo in XCSoar to have the variometer data read and understood by XCSoar. All the steps of the XCSoar configuration is described in the __software__ part.
+
+
+### Two versions for two interaction options
+To control the sound vario volume and turn the extension card on/off (indeed, you might want to use your Kobo as a reader), there are two possibilities and thus two versions of the PCB:
+- "button version": meaningful. Short press to loop in sound levels and long press to turn off.
+- "tap-tap version": the button is replaced with a accelerometer which detects the tap. Single tap to loop in sound levels and double tap to turn on/off.
 
 ## Hardware
 
