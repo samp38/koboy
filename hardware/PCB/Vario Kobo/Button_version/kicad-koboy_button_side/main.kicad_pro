@@ -493,7 +493,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Vario Kobo.kicad_pro",
+    "filename": "main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -661,13 +661,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Vario Kobo.kicad_sch",
-        "name": "Alimentation",
-        "uuid": "36434193-69ac-476d-843b-be8eaaeacaa5"
-      },
-      {
-        "filename": "Vario_Kobo_2.kicad_sch",
-        "name": "Vario Core",
+        "filename": "main.kicad_sch",
+        "name": "main",
         "uuid": "cad23409-104e-4581-9266-d814992be1c5"
       }
     ],
@@ -676,12 +671,12 @@
   },
   "sheets": [
     [
-      "36434193-69ac-476d-843b-be8eaaeacaa5",
-      "Alimentation"
-    ],
-    [
       "cad23409-104e-4581-9266-d814992be1c5",
       "Vario Core"
+    ],
+    [
+      "9b1d1e6a-e9ed-416c-b565-a066b307f2c4",
+      "Power supply"
     ]
   ],
   "text_variables": {},

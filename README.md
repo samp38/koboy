@@ -36,14 +36,14 @@ XCSoar
 - MCLR: the series resistor R2 (100Ω to 470Ω) from the datasheet's reference circuit is missing (C6 100nF sits directly on the MCLR net). It limits the current dumped by the capacitor if the pin breaks down under ESD/EOS (PIC24F16KA102 datasheet, §2.3).
 - No local decoupling capacitor on the MAS6240 VIN.
 - KOBO_RX is shared between the PIC and the GPS TX (through R5).
-- ERC: about 20 warnings left over from the Eagle import (missing no-connect flags, PWR_FLAG, dangling wires).
+- ERC: 11 warnings, no errors. The Eagle-imported symbols type their power pins (GND, VIN) as bidirectional, which ERC flags next to the PWR_FLAG.
 
 ### PCB
-- DRC: silkscreen warnings remain (no errors).
+- DRC: 74 silkscreen warnings, no errors. The reference texts from the Eagle import are 0.31 mm high (below the 0.8 mm minimum, unreadable once printed), and some footprint outlines (PA6H, buzzer) overlap their pads.
 
 ### Firmware
 - Auto-shutdown after inactivity is not implemented: `vario_shutdown_tick()` counts down but the `shutdown()` call is commented out (`firmware/vario.c`).
 
 ### Repository / documentation
-- The hardware moved from Eagle to KiCad (`hardware/PCB/Vario Kobo/Button_version/kicad-koboy_button_side/`). The Eagle files are kept for history only; "Vario Kobo TOP" is to be removed.
+- The hardware moved from Eagle to KiCad (`hardware/PCB/Vario Kobo/Button_version/kicad-koboy_button_side/main.kicad_pro`: `main` sheet plus a `Power supply` sub-sheet). The Eagle files are kept for history only; "Vario Kobo TOP" is to be removed.
 - The README still says "Eagle files" in the description and needs updating for KiCad.
