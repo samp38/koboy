@@ -39,7 +39,7 @@ XCSoar
 - ERC: 11 warnings, no errors. The Eagle-imported symbols type their power pins (GND, VIN) as bidirectional, which ERC flags next to the PWR_FLAG.
 
 ### PCB
-- DRC: 74 silkscreen warnings, no errors. The reference texts from the Eagle import are 0.31 mm high (below the 0.8 mm minimum, unreadable once printed), and some footprint outlines (PA6H, buzzer) overlap their pads.
+- DRC: 22 silkscreen warnings, no errors: the U5 (PA6H) and BZ1 (buzzer) footprint outlines from the Eagle import run over their pads. The fab clips them; fixing it means editing those footprints in `Vario Kobo-import-fps.pretty`.
 
 ### Firmware
 - Auto-shutdown after inactivity is not implemented: `vario_shutdown_tick()` counts down but the `shutdown()` call is commented out (`firmware/vario.c`).

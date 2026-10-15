@@ -5546,7 +5546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18bd2956-92a3-4cd2-8bc1-59a017b26961")
-		(property "Reference" "MAS0"
+		(property "Reference" "U3"
 			(at 345.44 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,13 +5640,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d"
-					(reference "MAS0")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5"
-					(reference "MAS0")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5663,7 +5663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "191aa618-6c16-4e0c-8b05-0479953e16ae")
-		(property "Reference" "CONN_PROG0"
+		(property "Reference" "J2"
 			(at 39.624 174.498 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,13 +5730,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d"
-					(reference "CONN_PROG0")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5"
-					(reference "CONN_PROG0")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6334,7 +6334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47ae0d82-e93a-47ee-9b71-9b7f75ea2b71")
-		(property "Reference" "BUZZER0"
+		(property "Reference" "BZ1"
 			(at 345.44 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6395,13 +6395,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d"
-					(reference "BUZZER0")
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5"
-					(reference "BUZZER0")
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -6831,7 +6831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f5444fc-104c-4399-8d99-c95f48aeb974")
-		(property "Reference" "BUTTON0"
+		(property "Reference" "SW1"
 			(at 73.66 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6892,13 +6892,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d"
-					(reference "BUTTON0")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5"
-					(reference "BUTTON0")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6997,7 +6997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c099085-2adb-4139-be38-fbf0d478c598")
-		(property "Reference" "CONN_KOBO0"
+		(property "Reference" "J1"
 			(at 36.576 50.038 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7064,13 +7064,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d"
-					(reference "CONN_KOBO0")
+					(reference "J1")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5"
-					(reference "CONN_KOBO0")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7751,7 +7751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd0d3ee4-a240-4744-b530-949bc182a885")
-		(property "Reference" "PIC0"
+		(property "Reference" "U1"
 			(at 210.82 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7866,13 +7866,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d"
-					(reference "PIC0")
+					(reference "U1")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5"
-					(reference "PIC0")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7973,7 +7973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4b3c5db-8873-4f9f-8b30-bac3603923ea")
-		(property "Reference" "MS5611"
+		(property "Reference" "U2"
 			(at 212.852 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,13 +8053,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d"
-					(reference "MS5611")
+					(reference "U2")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5"
-					(reference "MS5611")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8160,7 +8160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd785c3c-1c6a-453b-b5bb-d7f71e785dfa")
-		(property "Reference" "PA6H0"
+		(property "Reference" "U5"
 			(at 60.96 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8239,13 +8239,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d"
-					(reference "PA6H0")
+					(reference "U5")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5"
-					(reference "PA6H0")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8498,6 +8498,62 @@
 			)
 		)
 	)
+	(symbol_instances
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/bd0d3ee4-a240-4744-b530-949bc182a885"
+			(reference "U1")
+			(unit 1)
+			(value "PIC24F16KA101-X_")
+			(footprint "Vario Kobo-import-fps:SSOP20_MC")
+		)
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/c4b3c5db-8873-4f9f-8b30-bac3603923ea"
+			(reference "U2")
+			(unit 1)
+			(value "MS5607PACKAGEDNORMAL")
+			(footprint "Vario Kobo-import-fps:MS5607-02BA03")
+		)
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/18bd2956-92a3-4cd2-8bc1-59a017b26961"
+			(reference "U3")
+			(unit 1)
+			(value "MAS6240")
+			(footprint "Vario Kobo-import-fps:QFN12_3X3_LONGPADS")
+		)
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/dd785c3c-1c6a-453b-b5bb-d7f71e785dfa"
+			(reference "U5")
+			(unit 1)
+			(value "PA6H")
+			(footprint "Vario Kobo-import-fps:PA6H_PRINT")
+		)
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/8c099085-2adb-4139-be38-fbf0d478c598"
+			(reference "J1")
+			(unit 1)
+			(value "PICO-EZMATE4")
+			(footprint "Vario Kobo-import-fps:PICO-EZMATE4-PCB")
+		)
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/191aa618-6c16-4e0c-8b05-0479953e16ae"
+			(reference "J2")
+			(unit 1)
+			(value "PICO-EZMATE4")
+			(footprint "Vario Kobo-import-fps:PICO-EZMATE4-PCB")
+		)
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/7f5444fc-104c-4399-8d99-c95f48aeb974"
+			(reference "SW1")
+			(unit 1)
+			(value "SMS_J_LEAD")
+			(footprint "Vario Kobo-import-fps:SMS_J_LEAD")
+		)
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/47ae0d82-e93a-47ee-9b71-9b7f75ea2b71"
+			(reference "BZ1")
+			(unit 1)
+			(value "PKLCS1212E2000-R1")
+			(footprint "Vario Kobo-import-fps:PKLCS1212E2000-R1-SMD")
+		)
+		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4/50fa20a8-b821-4abd-85fc-8370d0b98102"
+			(reference "U4")
+			(unit 1)
+			(value "ADP160/161/162/163")
+			(footprint "Vario Kobo-import-fps:TSOT23-6_DDC")
+		)
+)
 	(sheet_instances
 		(path "/"
 			(page "1")

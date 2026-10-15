@@ -1236,7 +1236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50fa20a8-b821-4abd-85fc-8370d0b98102")
-		(property "Reference" "ADP160"
+		(property "Reference" "U4"
 			(at 165.1 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1306,13 +1306,13 @@
 		(instances
 			(project "main"
 				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "ADP160")
+					(reference "U4")
 					(unit 1)
 				)
 			)
 			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "ADP160")
+					(reference "U4")
 					(unit 1)
 				)
 			)
