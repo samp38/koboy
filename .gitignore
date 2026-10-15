@@ -10,3 +10,10 @@ firmware/dist/
 firmware/nbproject/Makefile-genesis.properties
 
 firmware/nbproject/private/configurations.xml
+
+# KiCad
+*.lck
+*.kicad_prl
+.history/
+fp-info-cache
+*-backups/
