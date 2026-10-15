@@ -17,3 +17,4 @@ firmware/nbproject/private/configurations.xml
 .history/
 fp-info-cache
 *-backups/
+*.bak

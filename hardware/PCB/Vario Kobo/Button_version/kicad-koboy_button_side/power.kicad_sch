@@ -5,7 +5,7 @@
 	(uuid "ef4bb5c2-5613-4315-83c1-8b54d018f208")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ADP160/161/162/163"
+		(symbol "Vario Kobo-eagle-import:ADP160/161/162/163"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -125,7 +125,7 @@
 						(type none)
 					)
 				)
-				(pin tri_state line
+				(pin power_in line
 					(at -25.4 20.32 0)
 					(length 5.08)
 					(name "VIN"
@@ -197,7 +197,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 10.16 17.78 180)
 					(length 5.08)
 					(name "VOUT"
@@ -218,7 +218,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C-EUC0603"
+		(symbol "Vario Kobo-eagle-import:C-EUC0603"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -375,7 +375,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND"
+		(symbol "Vario Kobo-eagle-import:GND"
 			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -505,7 +505,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R-EU_R0603"
+		(symbol "Vario Kobo-eagle-import:R-EU_R0603"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -809,12 +809,6 @@
 		(uuid "61758d35-6a4c-43a4-a6bf-639c8a81b0cc")
 	)
 	(junction
-		(at 182.88 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9558b259-60d6-4335-8286-5e27fbc2c22d")
-	)
-	(junction
 		(at 114.3 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -856,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 119.38) (xy 104.14 119.38)
+			(xy 100.33 119.38) (xy 129.54 119.38)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 104.14) (xy 182.88 104.14)
+			(xy 175.26 104.14) (xy 190.5 104.14)
 		)
 		(stroke
 			(width 0)
@@ -906,17 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 104.14) (xy 190.5 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e265fe9f-0d08-442e-b25b-4baa0a2a8f8f")
-	)
-	(wire
-		(pts
-			(xy 104.14 101.6) (xy 114.3 101.6)
+			(xy 102.87 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -951,31 +935,33 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "2ae1d651-725b-4673-940b-e8fec2f90b80")
 	)
 	(hierarchical_label "KOBO_EN"
 		(shape input)
-		(at 104.14 119.38 0)
+		(at 100.33 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "a786c840-49c0-443c-8873-b74a38f11bd1")
 	)
 	(hierarchical_label "BATT+"
 		(shape input)
-		(at 104.14 101.6 0)
+		(at 102.87 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "b6a99ac2-81e7-4f24-bee8-1bd1754b7f60")
 	)
 	(symbol
-		(lib_name "R-EU_R0603")
 		(lib_id "Vario Kobo-eagle-import:R-EU_R0603")
 		(at 129.54 124.46 90)
 		(unit 1)
@@ -1046,12 +1032,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "R3")
 					(unit 1)
@@ -1060,7 +1040,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND")
 		(lib_id "Vario Kobo-eagle-import:GND")
 		(at 134.62 111.76 0)
 		(unit 1)
@@ -1129,12 +1108,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#SUPPLY19")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "#SUPPLY19")
 					(unit 1)
@@ -1143,89 +1116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 182.88 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e58625a-c9fc-422c-8f50-79ace72853c6")
-		(property "Reference" "#FLG01"
-			(at 182.88 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 182.88 105.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96fb8233-de49-40dc-949d-470700f7e48e")
-		)
-		(instances
-			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
-				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ADP160/161/162/163")
 		(lib_id "Vario Kobo-eagle-import:ADP160/161/162/163")
 		(at 165.1 121.92 0)
 		(unit 1)
@@ -1305,12 +1195,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "U4")
 					(unit 1)
@@ -1374,6 +1258,7 @@
 		)
 		(property "Description" ""
 			(at 198.12 111.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1387,12 +1272,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "#FLG02")
 					(unit 1)
@@ -1401,7 +1280,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C-EUC0603")
 		(lib_id "Vario Kobo-eagle-import:C-EUC0603")
 		(at 190.5 106.68 0)
 		(unit 1)
@@ -1472,12 +1350,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "C2")
 					(unit 1)
@@ -1486,7 +1358,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND")
 		(lib_id "Vario Kobo-eagle-import:GND")
 		(at 129.54 132.08 0)
 		(unit 1)
@@ -1555,12 +1426,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#SUPPLY1")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "#SUPPLY1")
 					(unit 1)
@@ -1569,7 +1434,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND")
 		(lib_id "Vario Kobo-eagle-import:GND")
 		(at 114.3 114.3 0)
 		(unit 1)
@@ -1638,12 +1502,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#SUPPLY14")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "#SUPPLY14")
 					(unit 1)
@@ -1652,7 +1510,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND")
 		(lib_id "Vario Kobo-eagle-import:GND")
 		(at 190.5 114.3 0)
 		(unit 1)
@@ -1721,12 +1578,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#SUPPLY15")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "#SUPPLY15")
 					(unit 1)
@@ -1735,7 +1586,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C-EUC0603")
 		(lib_id "Vario Kobo-eagle-import:C-EUC0603")
 		(at 114.3 106.68 0)
 		(unit 1)
@@ -1806,12 +1656,6 @@
 		)
 		(instances
 			(project "main"
-				(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "Vario Kobo"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "C1")
 					(unit 1)

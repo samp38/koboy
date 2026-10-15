@@ -122,7 +122,7 @@
 					(type none)
 				)
 			)
-			(pin tri_state line
+			(pin power_in line
 				(at -25.4 20.32 0)
 				(length 5.08)
 				(name "VIN"
@@ -194,7 +194,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at 10.16 17.78 180)
 				(length 5.08)
 				(name "VOUT"
@@ -12940,7 +12940,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -17.78 7.62 0)
 				(length 5.08)
 				(name "GND"
@@ -13066,7 +13066,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -17.78 12.7 0)
 				(length 5.08)
 				(name "VIN"
@@ -13084,7 +13084,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 0 -22.86 90)
 				(length 5.08)
 				(name "EXP_PAD"
@@ -18853,7 +18853,7 @@
 			)
 		)
 		(symbol "PICO-EZMATE4_1_0"
-			(pin bidirectional line
+			(pin passive line
 				(at -7.62 2.54 270)
 				(length 5.08)
 				(name "P$1"
@@ -18871,7 +18871,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 2.54 270)
 				(length 5.08)
 				(name "P$2"
@@ -18889,7 +18889,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 2.54 270)
 				(length 5.08)
 				(name "P$3"
@@ -18907,7 +18907,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 7.62 2.54 270)
 				(length 5.08)
 				(name "P$4"
@@ -32881,7 +32881,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 0 180)
 				(length 5.08)
 				(name "P$2"
@@ -32899,7 +32899,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 0 0)
 				(length 5.08)
 				(name "P$1"
