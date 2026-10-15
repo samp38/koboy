@@ -6410,7 +6410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.88 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -6564,7 +6564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.2 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6642,7 +6642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 317.5 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6874,7 +6874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.62 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -7550,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 248.92 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7780,7 +7780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 393.7 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7934,7 +7934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -8012,7 +8012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.67 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8373,7 +8373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 243.84 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8624,7 +8624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8702,7 +8702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 386.08 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8780,7 +8780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 373.38 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8948,91 +8948,91 @@
 			(reference "R1")
 			(unit 1)
 			(value "10k")
-			(footprint "Vario Kobo-import-fps:R0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/c21a9cca-20fe-4619-8731-503d23ca059a"
 			(reference "R2")
 			(unit 1)
 			(value "10k")
-			(footprint "Vario Kobo-import-fps:R0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/33de5bce-355c-4cd5-9eeb-48d5f4c8fe79"
 			(reference "R4")
 			(unit 1)
 			(value "10k")
-			(footprint "Vario Kobo-import-fps:R0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/ad83813f-9b2a-4f43-b3db-461aae4b9187"
 			(reference "R5")
 			(unit 1)
 			(value "1k")
-			(footprint "Vario Kobo-import-fps:R0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/1fe431cd-d21a-4197-ba21-947748075d43"
 			(reference "R6")
 			(unit 1)
 			(value "10k")
-			(footprint "Vario Kobo-import-fps:R0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/e78e767b-ae8d-4669-a70b-b43020cc6b9e"
 			(reference "R7")
 			(unit 1)
 			(value "1")
-			(footprint "Vario Kobo-import-fps:R0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/5ed4ee3f-7e30-4d33-b464-07d718f6a241"
 			(reference "C3")
 			(unit 1)
 			(value "100nF")
-			(footprint "Vario Kobo-import-fps:C0603")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/c6101286-389d-4628-841a-8065ab7b3c05"
 			(reference "C4")
 			(unit 1)
 			(value "100nF")
-			(footprint "Vario Kobo-import-fps:C0603")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/38f7514f-c295-42cf-91d6-95884bb383ae"
 			(reference "C5")
 			(unit 1)
 			(value "100nF")
-			(footprint "Vario Kobo-import-fps:C0603")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/99dbff2c-7f14-47e4-9267-3a017397422f"
 			(reference "C6")
 			(unit 1)
 			(value "100nF")
-			(footprint "Vario Kobo-import-fps:C0603")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/fdd79762-1bc6-4b4f-bf87-358730389244"
 			(reference "C7")
 			(unit 1)
 			(value "100nF")
-			(footprint "Vario Kobo-import-fps:C0603")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/91d760f5-3441-4741-9793-8f00704f321c"
 			(reference "C8")
 			(unit 1)
 			(value "100nF")
-			(footprint "Vario Kobo-import-fps:C0603")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4/ed9b2ba6-64d5-4d5c-8b48-05e57196f5dc"
 			(reference "C1")
 			(unit 1)
 			(value "1µ")
-			(footprint "Vario Kobo-import-fps:C0603")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4/c1f2304f-71d6-4599-b0cb-d1a3efc2a788"
 			(reference "C2")
 			(unit 1)
 			(value "1µ")
-			(footprint "Vario Kobo-import-fps:C0603")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4/1cf2b794-753b-4475-8f66-87fce434f05c"
 			(reference "R3")
 			(unit 1)
 			(value "33k")
-			(footprint "Vario Kobo-import-fps:R0603")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 		)
 		(path "/3589bf9b-6637-4745-bf4f-b7acb8d1884d/9b1d1e6a-e9ed-416c-b565-a066b307f2c4/50fa20a8-b821-4abd-85fc-8370d0b98102"
 			(reference "U4")

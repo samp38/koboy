@@ -992,7 +992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 129.54 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1310,7 +1310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1616,7 +1616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vario Kobo-import-fps:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 114.3 106.68 0)
 			(hide yes)
 			(show_name no)
