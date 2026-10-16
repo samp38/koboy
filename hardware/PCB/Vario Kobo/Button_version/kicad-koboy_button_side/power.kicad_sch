@@ -375,136 +375,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Vario Kobo-eagle-import:GND"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.905 -3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Vario Kobo-eagle-import:R-EU_R0603"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -664,6 +534,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -801,12 +786,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "450d972f-b267-4fd9-9416-538074869336")
-	)
-	(junction
-		(at 190.5 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61758d35-6a4c-43a4-a6bf-639c8a81b0cc")
 	)
 	(junction
 		(at 114.3 101.6)
@@ -1040,8 +1019,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Vario Kobo-eagle-import:GND")
-		(at 134.62 111.76 0)
+		(lib_id "power:GND")
+		(at 134.62 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1049,10 +1028,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2e3ac69e-0b0f-4d2a-b50c-1148d063316a")
-		(property "Reference" "#SUPPLY19"
-			(at 134.62 107.95 0)
-			(hide yes)
+		(uuid "22a11e5c-77ae-4a0c-9244-063a67a4615b")
+		(property "Reference" "#PWR01"
+			(at 134.62 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1062,7 +1040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 115.57 0)
+			(at 134.62 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1072,7 +1050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 111.76 0)
+			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1082,8 +1060,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 111.76 0)
+		(property "Datasheet" "~"
+			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1094,7 +1072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 111.76 0)
+			(at 134.62 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1104,12 +1082,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cf4bc9b-006d-44e9-8bb2-0192a23713c9")
+			(uuid "76b7ee0f-74f3-4775-82a0-1343e5afc72a")
 		)
 		(instances
 			(project "main"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#SUPPLY19")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1203,6 +1181,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58c84b40-0162-4532-aeee-7418339618c6")
+		(property "Reference" "#PWR02"
+			(at 129.54 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da527c4b-bf0c-4f50-8be2-155d086d81b6")
+		)
+		(instances
+			(project "main"
+				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 198.12 111.76 0)
 		(unit 1)
@@ -1274,6 +1327,81 @@
 			(project "main"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a8c1d8f-f34a-48ef-81f2-cdda5c2059bb")
+		(property "Reference" "#PWR04"
+			(at 190.5 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65a3a1c9-d032-450f-861e-5b9abfa9fddc")
+		)
+		(instances
+			(project "main"
+				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1358,8 +1486,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Vario Kobo-eagle-import:GND")
-		(at 129.54 132.08 0)
+		(lib_id "power:GND")
+		(at 114.3 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1367,10 +1495,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cf9acdec-5e7a-482c-9cc8-fdcdb254f05a")
-		(property "Reference" "#SUPPLY1"
-			(at 136.652 132.842 0)
-			(hide yes)
+		(uuid "d114566b-88a0-4471-a367-d6e8741b8659")
+		(property "Reference" "#PWR03"
+			(at 114.3 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1380,7 +1507,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 135.89 0)
+			(at 114.3 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1390,7 +1517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 132.08 0)
+			(at 114.3 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1400,8 +1527,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 129.54 132.08 0)
+		(property "Datasheet" "~"
+			(at 114.3 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1412,7 +1539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 132.08 0)
+			(at 114.3 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1422,164 +1549,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "45f608e9-fc0a-40d8-bb4d-bb6119f7d24d")
+			(uuid "daa346a5-a24d-480b-b758-2c23dc8a2cd6")
 		)
 		(instances
 			(project "main"
 				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#SUPPLY1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Vario Kobo-eagle-import:GND")
-		(at 114.3 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d33a75e0-31a2-4723-a95a-82c82b061b74")
-		(property "Reference" "#SUPPLY14"
-			(at 114.3 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e228ad5-bdb7-4846-b088-ed858af700c8")
-		)
-		(instances
-			(project "main"
-				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#SUPPLY14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Vario Kobo-eagle-import:GND")
-		(at 190.5 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d3471e8a-6c3f-4286-8542-adb69e762169")
-		(property "Reference" "#SUPPLY15"
-			(at 190.5 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4bf50e5-c5c1-40f8-affb-a5e5c10d247f")
-		)
-		(instances
-			(project "main"
-				(path "/cad23409-104e-4581-9266-d814992be1c5/9b1d1e6a-e9ed-416c-b565-a066b307f2c4"
-					(reference "#SUPPLY15")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
