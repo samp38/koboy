@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Vario Kobo SIDE V1-import-fps") (type "KiCad") (uri "${KIPRJMOD}/Vario Kobo SIDE V1-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
+)

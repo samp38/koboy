@@ -1,0 +1,130 @@
+(footprint "USB-A-PCB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.27 -5.08 0)
+		(layer "F.SilkS")
+		(uuid "2a456588-ae88-4b53-bd76-885281f12c05")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "USB-A-PCB"
+		(at -1.27 5.08 0)
+		(layer "F.Fab")
+		(uuid "65ad1cc4-ae69-4fee-a2c7-22a00bcd5d70")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bd71ec3-5666-45f8-8064-22fea544b7d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "965464d7-ecdd-4c80-bcda-3cc8dd7f285b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5 -6)
+		(end 3.7 -6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3b24b38-9800-4d3b-af32-20271b82b847")
+	)
+	(fp_line
+		(start -5 6)
+		(end -5 -6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c9b9851-29e7-42e4-9393-490a960809d7")
+	)
+	(fp_line
+		(start 3.7 -6)
+		(end 3.7 6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "685651d0-e73e-4e83-8878-40eba17b10e3")
+	)
+	(fp_line
+		(start 3.7 6)
+		(end -5 6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f00b0c26-5c6b-4e50-9f08-01f7590c91c7")
+	)
+	(pad "5V" smd rect
+		(at -0.2 3.5)
+		(size 7.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "ca1a7da5-86ba-4738-aa4d-27c86be86900")
+	)
+	(pad "GND" smd rect
+		(at -0.2 -3.5)
+		(size 7.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "2cca3c07-2a1f-44d8-8653-72d80de7b179")
+	)
+	(pad "USB_M" smd rect
+		(at 0.3 1)
+		(size 6.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "88920501-5a9a-45d0-b5e3-412cb47c0408")
+	)
+	(pad "USB_P" smd rect
+		(at 0.3 -1)
+		(size 6.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "1fc71e63-8bba-4c34-a213-83a83ef84d99")
+	)
+	(embedded_fonts no)
+)

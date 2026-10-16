@@ -18,3 +18,8 @@ firmware/nbproject/private/configurations.xml
 fp-info-cache
 *-backups/
 *.bak
+_autosave-*
+\#auto_saved_files#
+*-drc.json
+*-erc.json
+*.rpt

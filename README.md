@@ -38,13 +38,22 @@ XCSoar
 - MCLR: the series resistor R2 (100Ω to 470Ω) from the datasheet's reference circuit is missing (C6 100nF sits directly on the MCLR net). It limits the current dumped by the capacitor if the pin breaks down under ESD/EOS (PIC24F16KA102 datasheet, §2.3).
 - No local decoupling capacitor on the MAS6240 VIN.
 - KOBO_RX is shared between the PIC and the GPS TX (through R5).
+- Button version: the MAS6240 EN1/EN2 pins are wired to RA2/RA3, the reverse of `firmware/audio.c` (`EN1 = _RA3`, `EN2 = _RA2`). This dates back to the original Eagle design. As a result the low and medium volume levels are swapped (low gives 2x, medium gives 1x); high and off are unaffected. The taptap version matches the firmware. To be fixed in the firmware with per-version pin definitions.
+- R7 (1Ω) in series with the piezo is nearly a jumper: the MAS6240 datasheet suggests an optional 1kΩ to 2kΩ output protection resistor.
+- Taptap version: the PIC is programmed through the USB-A plug X1 with a custom pinout (D+ → MCLR, D− → PGC, 5V → PGD, which is also the GPS RX). Plugging the board into a real USB port would put 5V on PGD and the GPS RX.
+- Taptap version: the PA6H GND pins 3, 12 and 19 are not connected (Eagle library), only pin 8 is. To be fixed with the Gekkio GPS footprint, as on the button version.
 
 ### PCB
-- DRC: 2 silkscreen warnings, no errors: the BZ1 (buzzer) footprint outline from the Eagle import runs over its pads. The fab clips it.
+- Button version, DRC: 2 silkscreen warnings, no errors: the BZ1 (buzzer) footprint outline from the Eagle import runs over its pads. The fab clips it.
+- Taptap version, DRC: 12 errors, all pad-to-pad gaps of 0.195mm (rule 0.2mm) inside the Eagle MMA8452 footprint (0.305mm pads at 0.5mm pitch); to be fixed with a KiCad standard footprint. Silkscreen warnings from the Eagle PA6H and MMA8452 outlines and undersized texts.
 
 ### Firmware
 - Auto-shutdown after inactivity is not implemented: `vario_shutdown_tick()` counts down but the `shutdown()` call is commented out (`firmware/vario.c`).
 
 ### Repository / documentation
-- The hardware moved from Eagle to KiCad (`hardware/PCB/Vario Kobo/Button_version/kicad-koboy_button_side/main.kicad_pro`: `main` sheet plus a `Power supply` sub-sheet). The Eagle files are kept for history only; "Vario Kobo TOP" is to be removed.
+- The hardware moved from Eagle to KiCad, with the same structure for both versions (`main` sheet plus a `Power supply` sub-sheet):
+  - button version: `hardware/PCB/Vario Kobo/Button_version/kicad-koboy_button_side/main.kicad_pro`;
+  - taptap version: `hardware/PCB/Vario Kobo/Taptap_version/kicad-koboy_taptap_side/main.kicad_pro` (migration in progress: references, silkscreen, GPS footprint and pin types still to do).
+
+  The Eagle files are kept for history only; "Vario Kobo TOP" is to be removed.
 - The README still says "Eagle files" in the description and needs updating for KiCad.
